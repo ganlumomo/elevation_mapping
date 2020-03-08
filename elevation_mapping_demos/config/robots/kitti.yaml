@@ -1,0 +1,10 @@
+point_cloud_topic: "/kitti_player_mini_node/velodyne"
+sensor_frame_id: "sensor"
+map_frame_id: "map"
+robot_base_frame_id: "robot"
+robot_pose_with_covariance_topic: "/kitti_player_mini_node/left_camera_pose"
+robot_pose_cache_size: 200
+track_point_frame_id: "robot"
+track_point_x: 0.0
+track_point_y: 0.0
+track_point_z: 0.0
