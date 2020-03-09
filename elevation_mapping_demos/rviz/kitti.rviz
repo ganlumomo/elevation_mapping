@@ -56,11 +56,11 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        left_camera:
+          Value: true
         map:
           Value: true
-        robot:
-          Value: true
-        sensor:
+        velodyne:
           Value: true
       Marker Scale: 0.30000001192092896
       Name: TF
@@ -69,8 +69,8 @@ Visualization Manager:
       Show Names: false
       Tree:
         map:
-          robot:
-            sensor:
+          left_camera:
+            velodyne:
               {}
       Update Interval: 0
       Value: true
@@ -168,7 +168,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /traversability_projection_node/test_points
+      Topic: /traversability_projection_node/visualized_cloud
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -201,25 +201,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 36.44010925292969
+      Distance: 160.61192321777344
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -4.996509075164795
-        Y: 21.01621437072754
-        Z: 8.519999504089355
+        X: -34.623512268066406
+        Y: 245.56573486328125
+        Z: -10.584062576293945
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4397970139980316
+      Pitch: 0.9847967028617859
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.182433605194092
+      Yaw: 0.07742690294981003
     Saved: ~
 Window Geometry:
   Displays:
@@ -237,5 +237,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1837
-  X: 742
-  Y: 195
+  X: 812
+  Y: 116
